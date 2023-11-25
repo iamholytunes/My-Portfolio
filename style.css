@@ -28,7 +28,7 @@ header h1 {
 }
 
 header p {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 /* Navigation styles */
@@ -57,6 +57,16 @@ section {
 
 
 /* Projects section styles */
+#projects {
+    padding: 2em;
+    background-image: url('images/R.jpeg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: #101010; /* Adjust text color for better visibility on the background image */
+}
+#projects h2 {
+    color: #fff; /* Set the text color to white */
+}
 .projects {
     display: flex;
     justify-content: space-around;
@@ -69,7 +79,7 @@ section {
     padding: 1.5em;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with some opacity */
     transition: transform 0.3s ease-in-out;
 }
 
@@ -83,7 +93,7 @@ section {
 }
 
 .projects img {
-    max-width: 100%; /* Adjusted max-width for responsiveness */
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
